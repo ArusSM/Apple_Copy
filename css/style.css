@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+header {
+    height: 45px;
+    background-color:rgba(0, 0, 0, 0.9);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 40;
+}
+.headmenu {
+    width: 1000px;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.headmenu > li > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.headmenu > li > a:hover {
+    color: white;
+}
+
+.gongji {
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gongji_a:hover {
+    text-decoration: underline;
+}
+
+.first {
+    font-weight: bold;
+}
+.SE {
+    position: relative;
+}
+.SE_a {
+    width: 1900px;
+    height: 690px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.SE_a > a {
+    color: royalblue;
+}
+
+.SE_a > a:hover {
+    text-decoration: underline;
+}
+
+.Pro11 {
+    position: relative;
+}
+.Pro11_a > a {
+    color: royalblue;
+}
+.Pro11_a > a:hover {
+    text-decoration: underline;
+}
+
+.Arc_a > a {
+    color: white;
+}
+.Arc_a > a:hover {
+    text-decoration: underline;
+}
+.Arc_a {
+    width: 932px;
+    height: 580px;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding-top: 190px;
+}
+.Pro11_a {
+    width: 932px;
+    height: 580px;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding-top: 190px;
+}
+.Box2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer {
+    background-color: #F5F5F7;
+}
+footer > div {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+footer > div > ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 12px;
+}
+footer > div > ol {
+    font-size: 11px;
+}
+
+.Ftitle {
+    font-weight: bold;
+}
+
+.Underul {
+    font-size: 11px;
+}
+
+.Underul > a {
+    color: royalblue;
+}
+
+.Underul > a:hover {
+    text-decoration : underline;
+}
+
+.Copyright {
+    font-size: 11px;
+}
+
+.Copyright > a {
+    color: black;
+}
+
+.Copyright > a:hover {
+    text-decoration : underline;
+}
+
+.lastline {
+    font-size: 9px;
+}
+
+.contry {
+    color: black;
+    font-size: 11px;
+}
+.contry:hover {
+    text-decoration : underline;
+}
+.copyline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footlist_a {
+    color: black;
+}
+
+.footlist_a:hover {
+    text-decoration: underline;
+}
